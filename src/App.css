@@ -1,38 +1,109 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main {
+  width: 600px;
+  padding: 20px 20px;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0 0 25px #4d1f00;
+  background-color: rgba(210, 208, 208, 0.85);
+}
+
+.main .nav {
+  position: relative;
+  display: flex;
+  font-size: 16px;
+  font-weight: 700;
+  border-bottom: 2px solid #999999;
+  padding-bottom: 15px;
+}
+
+.nav .line {
+  position: absolute;
+  bottom: -2px;
+  width: 138px;
+  height: 4px;
+  background-color: #e06b1d;
+}
+
+.nav-item {
+  flex: 1;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-item:hover {
+  text-shadow: 0 0 5px #ff8533;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-item .title {
+  display: inline;
+  text-align: left;
+  color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.content {
+  width: 2400px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-flow: row nowrap;
+  transition: 0.2 ease;
 }
 
-.App-link {
-  color: #61dafb;
+.content p {
+  width: 80%;
+  margin: 40px 20px 10px 20px;
+}
+.content-item {
+  width: 600px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.summary {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ranking {
+  padding: 0 20px;
+}
+
+.rank {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.rank span {
+  flex: 1;
+}
+
+.rank.head {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.source {
+  margin-top: 30px;
+  font-size: 12px;
 }

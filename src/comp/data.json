@@ -1,0 +1,62 @@
+[
+  {
+    "Game": "Dota2",
+    "AwardingMoney": 229104339.5,
+    "Players": 3886,
+    "Tournaments": 1467,
+    "Player1_name": "Johan Sundstein",
+    "Player1_country": "Denmark",
+    "Player1_age": 27,
+    "Player2_name": "Jesse Vainikka",
+    "Player2_country": "Finland",
+    "Player2_age": 28,
+    "Player3_name": "Anathan Pham",
+    "Player3_country": "Australia",
+    "Player3_age": 21
+  },
+  {
+    "Game": "Counter-Strike: Global Offensive",
+    "AwardingMoney": 107039576.9,
+    "Players": 13308,
+    "Tournaments": 5404,
+    "Player1_name": "Peter Rasmussen",
+    "Player1_country": "Denmark",
+    "Player1_age": 27,
+    "Player2_name": "Andreas Højsleth",
+    "Player2_country": "Denmark",
+    "Player2_age": 25,
+    "Player3_name": "Nicolai Reedtz",
+    "Player3_country": "Denmark",
+    "Player3_age": 25
+  },
+  {
+    "Game": "Fortnite",
+    "AwardingMoney": 99362917.41,
+    "Players": 4456,
+    "Tournaments": 673,
+    "Player1_name": "Kyle Giersdorf",
+    "Player1_country": "United States",
+    "Player1_age": 17,
+    "Player2_name": "David Wang",
+    "Player2_country": "Austria",
+    "Player2_age": "unknown",
+    "Player3_name": "Harrison Chang",
+    "Player3_country": "United States",
+    "Player3_age": 25
+  },
+  {
+    "Game": "League of Legends",
+    "AwardingMoney": 81669988.72,
+    "Players": 7163,
+    "Tournaments": 2482,
+    "Player1_name": "Lee Sang Hyeok",
+    "Player1_country": "Korea Republic of",
+    "Player1_age": 24,
+    "Player2_name": "Lee Ho Seong",
+    "Player2_country": "Korea Republic of",
+    "Player2_age": 26,
+    "Player3_name": "Bae Jun Sik",
+    "Player3_country": "Korea Republic of",
+    "Player3_age": 24
+  }
+]
